@@ -5,6 +5,7 @@
   grid-template-rows: min-max(100px, auto);
   column-gap: none;
   row-gap: none;
+
   grid-template-areas: "titulo titulo titulo titulo"  "blanco blanco blanco blanco"  "centro centro centro centro" "footer footer footer footer";
 }
 
@@ -48,13 +49,22 @@ padding: 100px;
 #der{
 float: right;
 max-width: 600px;
-padding: 40px;
+padding-left: 40px;
+padding-top:10px ;
+min-height: 400px;
+}
+#der2{
+  float: left;
+  max-width: 600px;
+  padding-left: 100px;
+  padding-top:20px ;
 }
 #izq{
   float: left;
   max-width: 600px;
   padding: 40px;
 }
+
 
 .footer { grid-area: footer;
   background-color: #2F293F;
