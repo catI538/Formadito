@@ -1,3 +1,7 @@
+body{
+  background-color: #E3E3E3;
+
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -21,14 +25,15 @@ h1{
   column-gap: none;
   row-gap: none;
   grid-template-areas: ". circulos ." ;
+  background-color: #E3E3E3;
 }
 
 .circulos { grid-area: circulos; 
 text-align: center;
-padding: 100px;}
+padding: 100px;
+}
 
 .centro {
-  margin-top: 100px;
   display: grid;
   grid-template-columns: 0.3fr 2.4fr 0.3fr;
   grid-template-rows: min-max(100px, auto);
