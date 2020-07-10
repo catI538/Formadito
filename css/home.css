@@ -1,0 +1,17 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 1px 1px;
+  grid-template-areas: "formadito formadito formadito formadito formadito formadito" ". circulos circulos circulos circulos ." "rojo rojo rojo rojo rojo rojo" "blanco blanco blanco blanco blanco blanco" "footer footer footer footer footer footer";
+}
+
+.circulos { grid-area: circulos; }
+
+.formadito { grid-area: formadito; }
+
+.rojo { grid-area: rojo; }
+
+.blanco { grid-area: blanco; }
+
+.footer { grid-area: footer; }
