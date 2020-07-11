@@ -120,6 +120,9 @@ min-height: 200px;
   cursor: pointer;
   align-content: bottom;
 }
+a{
+  font-family: arial;
+}
 /*movil
 400x738
 pantalla
