@@ -94,7 +94,7 @@ min-height: 190px;
   min-height: 100px;
   column-gap: none;
   row-gap: none;
-  display: inline;
+  display: center;
  }
  .responsive {
   width: 100%;
@@ -107,12 +107,6 @@ min-height: 190px;
   margin: 0px;
 }
 
-.responsive2 {
-  display: inline-flex;
-  width: 17%;
-  padding: 13px;
-  height: auto;
-}
 
 .button {
   background-color: #C4C4C4;
@@ -139,25 +133,57 @@ min-height: 190px;
   cursor: pointer;
   align-content: bottom;
 }
-
+table{
+width: 100%;
+padding-left: auto;
+}
+th, td {
+  text-align: center;
+  padding: 8px;
+}
 #foot{
   color: #FFFFFF;
-  column-count: 2;
-  text-align: center;
-  display: list-item;
+
 }
 #foot1{
   color: #EE2B25;
-  column-count: 2;
-  text-align: center;
-  display: list-item;
-}
-.foo{
- 
-  display: inline;
 }
 a{
   font-family: arial;
+}
+/*CIRCULITOS*/
+#info {
+	color: #EE2B25;
+	text-align: center;
+	padding: 20px;
+}
+
+#info .contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.info-categoria {
+	margin: 10px;
+}
+
+.info-categoria img {
+	width: 160px;
+	height: 160px;
+
+}
+
+@media (min-width:480px) {
+	.info-pet {
+		width: 40%;
+	}
+}
+
+@media (min-width:1024px) {
+	.info-pet {
+		width: auto;
+	}
 }
 /*movil
 400x738
