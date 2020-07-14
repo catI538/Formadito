@@ -1,6 +1,9 @@
 
 body{
   margin: 1px;
+  background-image: url(../imagenes/fondo2.png);
+  background-repeat: repeat;
+
 }
 .grid-container {
   display: grid;
@@ -8,13 +11,14 @@ body{
   grid-template-rows: min-max(100px, auto);
   column-gap: none;
   row-gap: none;
+  
 
 
   grid-template-areas: "titulo titulo titulo titulo"  "blanco blanco blanco blanco"  "centro centro centro centro" "footer footer footer footer";
 }
 
 .titulo { grid-area: titulo;
-background-color: #2F293F; }
+background-color: #3A3247; }
 
 
 #ti{
@@ -24,12 +28,13 @@ background-color: #2F293F; }
 }
 .blanco{ display: grid;
   grid-area: blanco;
-  grid-template-columns: 0.6fr 1.8fr 0.6fr;
+  grid-template-columns: 0.3fr 2.4fr 0.3fr;
   grid-template-rows: min-max(100px, auto);
   column-gap: none;
   row-gap: none;
   grid-template-areas: ". circulos ." ;
-  background-color: #E3E3E3;
+
+  /*background-color: #E3E3E3;*/
 }
 
 .circulos { grid-area: circulos; 
@@ -57,25 +62,25 @@ float: right;
 max-width: 600px;
 padding-left: 40px;
 padding-top:10px ;
-min-height: 200px;
+min-height: 190px;
 }
 #der2{
   float: left;
   max-width: 600px;
-  padding-left: 122px;
-  padding-top:20px ;
+  padding-left: 130px;
+  padding-top:40px ;
 }
 #der3{
   float: right;
   max-width: 600px;
   padding-left: 100px;
-  padding-top:10px ;
+  padding-top:4px ;
   min-height: 200px;
   margin-right: 100px;
   }
 #izq{
   float: left;
-  max-width: 600px;
+  max-width: 400px;
   padding: 40px;
 }
 
@@ -92,6 +97,13 @@ min-height: 200px;
 }
 .responsive1 {
   width: 100%;
+  height: auto;
+}
+
+.responsive2 {
+  display: inline-flex;
+  width: 17%;
+  padding: 13px;
   height: auto;
 }
 
