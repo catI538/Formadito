@@ -3,6 +3,7 @@ body{
   margin: 1px;
   background-image: url(../imagenes/fondo2.png);
   background-repeat: repeat;
+  
 
 }
 .grid-container {
@@ -18,7 +19,8 @@ body{
 }
 
 .titulo { grid-area: titulo;
-background-color: #3A3247; }
+background-color: #3A3247; 
+}
 
 
 #ti{
@@ -51,11 +53,13 @@ padding: 100px;
   grid-template-areas: ". dos .";
   grid-area: centro;
   background-color: #EE3F3A;
+  opacity: 0.95;
+  
  
 
 }
 .dos { grid-area: dos;
-
+ 
 }
 #der{
 float: right;
@@ -90,6 +94,7 @@ min-height: 190px;
   min-height: 100px;
   column-gap: none;
   row-gap: none;
+  display: inline;
  }
  .responsive {
   width: 100%;
@@ -98,6 +103,8 @@ min-height: 190px;
 .responsive1 {
   width: 100%;
   height: auto;
+  padding: 0px;
+  margin: 0px;
 }
 
 .responsive2 {
@@ -131,6 +138,23 @@ min-height: 190px;
   margin: 4px 2px;
   cursor: pointer;
   align-content: bottom;
+}
+
+#foot{
+  color: #FFFFFF;
+  column-count: 2;
+  text-align: center;
+  display: list-item;
+}
+#foot1{
+  color: #EE2B25;
+  column-count: 2;
+  text-align: center;
+  display: list-item;
+}
+.foo{
+ 
+  display: inline;
 }
 a{
   font-family: arial;
