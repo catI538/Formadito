@@ -29,6 +29,15 @@ h1{
     background-color: #EE3F3A;
     opacity: 0.9;
     padding: 20px;
+    
+}
+.gallery__text1{
+    width: 100%;
+    height: auto;
+    background-color: #EE3F3A;
+    opacity: 1;
+    padding: 20px;
+    
 }
 /*ELEGIR UNA IMAGEN Y CAMBIARLA DIRECTAMENTE
 .gallery__item:nth-child()*/
@@ -51,9 +60,38 @@ h1{
         grid-template-columns: repeat(4, 1fr);
         margin: auto;
         width: 90%;
+        grid-row: auto;
+        padding: 20px;
+        grid-gap: 40px;
+        height: auto;
     }
     .gallery__item:nth-child(1){
         grid-row-start: span 2;
         grid-column-start: span 4;
+    }
+    .gallery__item:nth-child(2){
+        grid-row-start: span 2;
+        grid-column-start: span 2;
+    }
+    .gallery__item:nth-child(4){
+        grid-row-start: span 1;
+        grid-column-start: span 1;
+    }
+    .gallery__item:nth-child(5){
+        grid-row-start: span 1;
+        grid-column-start: span 4;
+    }
+    .gallery__item:nth-child(6){
+        grid-row-start: span 1;
+        grid-column-start: span 2;
+    }
+    .gallery__item:nth-child(7){
+        grid-row-start: span 1;
+        grid-column-start: span 2;
+    }
+    .gallery__item:nth-child(7){
+        grid-row-start: span 1;
+        grid-column-start: span 4;
+        height: 200px;
     }
 }
