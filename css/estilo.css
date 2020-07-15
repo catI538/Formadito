@@ -32,14 +32,12 @@ h1{
 }
 /*ELEGIR UNA IMAGEN Y CAMBIARLA DIRECTAMENTE
 .gallery__item:nth-child()*/
-
+/*
 .gallery__item:nth-child(6){
     grid-column-start: span 2;
 }
-.gallery__item:nth-child(1){
-    grid-row-start: span 2;
-    grid-column-start: span 4;
-}
+*/
+
 
 @media (min-width:764px){
     .gallery-container{
@@ -53,5 +51,9 @@ h1{
         grid-template-columns: repeat(4, 1fr);
         margin: auto;
         width: 90%;
+    }
+    .gallery__item:nth-child(1){
+        grid-row-start: span 2;
+        grid-column-start: span 4;
     }
 }
