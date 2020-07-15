@@ -1,5 +1,6 @@
 body{
     background-image: url(../imagenes/fondo2.png);
+
 }
 h1{
     text-align: center;
@@ -29,10 +30,6 @@ h1{
     opacity: 0.9;
     padding: 20px;
 }
-.responsive {
-    width: 100%;
-    height: auto;
-  }
 /*ELEGIR UNA IMAGEN Y CAMBIARLA DIRECTAMENTE
 .gallery__item:nth-child()*/
 
