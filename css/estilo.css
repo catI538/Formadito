@@ -146,4 +146,12 @@ h2{
         grid-row-start: span 1;
         grid-column-start: span 2;
     }
+    .gallery__item:nth-child(22){
+        grid-row-start: span 1;
+        grid-column-start: span 2;
+    }
+    .gallery__item:nth-child(23){
+        grid-row-start: span 1;
+        grid-column-start: span 2;
+    }
 }
