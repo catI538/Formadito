@@ -39,6 +39,10 @@ h1{
     padding: 20px;
     
 }
+h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 /*ELEGIR UNA IMAGEN Y CAMBIARLA DIRECTAMENTE
 .gallery__item:nth-child()*/
 /*
@@ -93,5 +97,32 @@ h1{
         grid-row-start: span 1;
         grid-column-start: span 4;
         height: 200px;
+    }
+    .gallery__item:nth-child(12){
+        grid-row-start: span 1;
+        grid-column-start: span 4;
+        height: 200px;
+    }
+    .gallery__item:nth-child(13){
+        grid-row-start: span 1;
+        grid-column-start: span 4;
+        height: 200px;
+        text-align: center;
+    }
+    .gallery__item:nth-child(14){
+        grid-row-start: span 1;
+        grid-column-start: span 4;
+        height: 200px;
+        text-align: center;
+    }
+    .gallery__item:nth-child(15){
+        grid-row-start: span 1;
+        grid-column-start: span 4;
+        height: 200px;
+    
+    }
+    .gallery__item:nth-child(17){
+        grid-row-start: span 2;
+        grid-column-start: span 2;
     }
 }
