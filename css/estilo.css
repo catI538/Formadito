@@ -121,7 +121,7 @@ h2{
     }
     .gallery__item:nth-child(13){
         grid-row-start: span 1;
-        grid-column-start: span 4;
+        grid-column-start: span 1;
         height: 200px;
     }
     .gallery__item:nth-child(14){
