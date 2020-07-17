@@ -5,12 +5,16 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 h1{
     text-align: center;
    font-family: KiloGram;
-   font-size: 40pt;
+   font-size: 60px;
    color: #ffffff;
    -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
 /*ESTILOS DE GALERIA*/
+.seis{
+    padding-left: 10px;
+    padding-right: 15px;
+}
 .gallery-container{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
