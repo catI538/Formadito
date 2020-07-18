@@ -10,6 +10,9 @@ h1{
    -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
+p{
+    font-size: 1.1em;
+}
 /*ESTILOS DE GALERIA*/
 .seis{
     padding-left: 10px;
@@ -106,6 +109,7 @@ h2{
     .gallery__item:nth-child(6){
         grid-row-start: span 1;
         grid-column-start: span 4;
+        text-align: center;
     }
     .gallery__item:nth-child(7){
         grid-row-start: span 1;
@@ -118,7 +122,8 @@ h2{
     .gallery__item:nth-child(9){
         grid-row-start: span 1;
         grid-column-start: span 4;
-        height: 200px;
+        height: auto;
+        text-align: center;
     }
     .gallery__item:nth-child(13){
         grid-row-start: span 1;
