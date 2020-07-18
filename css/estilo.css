@@ -78,29 +78,128 @@ h2{
     width: 100%;
     height: 100%;
 }
-.footer { grid-area: footer;
-    background-color: #2F293F;
-    min-height: 100px;
-    column-gap: none;
-    row-gap: none;
-    display: center;
-   }
-   #foot{
-    color: #FFFFFF;
+body{
+    margin: 0;
+    padding: 0;
+  }
   
+  footer{
+    background: #293043;
+    padding: 90px 0;
   }
-  #foot1{
-    color: #EE2B25;
+  
+  .footer-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
   }
-  table{
-    width: 100%;
-    padding-left: auto;
+  
+  .logo{
+    width: 180px;
+  }
+  
+  .social-media{
+    margin: 20px 0;
+  }
+  
+  .social-media a{
+    color: #ffffff;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+  }
+  
+  .social-media a:hover{
+    color: #EE3F3A;
+  }
+  
+  .right-col h1{
+    font-size: 26px;
+  }
+  
+  .border{
+    width: 100px;
+    height: 4px;
+    background: #EE3F3A;
+  }
+  
+  .newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .txtb{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #ffffff;
+    background: #ddd;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+  }
+  
+  .btn{
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #f1f1f1;
+    background: #EE3F3A;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+  }
+  .rights-text{
+      color: #ffffff;
+  }
+  .btn:hover{
+    opacity: .7;
+  }
+  
+  .page-content{
+    min-height: 100vh;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width:960px) {
+    .footer-container{
+      max-width: 600px;
     }
-    th, td {
+    .right-col{
+      width: 100%;
+      margin-bottom: 60px;
+    }
+  
+    .left-col{
+      width: 100%;
       text-align: center;
-      padding: 8px;
     }
-
+  }
+  
+  
+  @media screen and (max-width:700px){
+    .btn{
+      margin: 0;
+      width: 100%;
+      margin-top: 20px;
+      }
+  }
+  
 
 /*ELEGIR UNA IMAGEN Y CAMBIARLA DIRECTAMENTE
 .gallery__item:nth-child()*/
@@ -124,7 +223,7 @@ h2{
         margin: 1px;
         width: 90%;
         grid-row: auto;
-        padding: 20px;
+        padding: 50px;
         grid-gap: 40px;
         height: auto;
     }
