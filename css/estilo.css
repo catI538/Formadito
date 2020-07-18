@@ -78,10 +78,29 @@ h2{
     width: 100%;
     height: 100%;
 }
-.footer{
+.footer { grid-area: footer;
     background-color: #2F293F;
-    color: #ffffff;
-}
+    min-height: 100px;
+    column-gap: none;
+    row-gap: none;
+    display: center;
+   }
+   #foot{
+    color: #FFFFFF;
+  
+  }
+  #foot1{
+    color: #EE2B25;
+  }
+  table{
+    width: 100%;
+    padding-left: auto;
+    }
+    th, td {
+      text-align: center;
+      padding: 8px;
+    }
+
 
 /*ELEGIR UNA IMAGEN Y CAMBIARLA DIRECTAMENTE
 .gallery__item:nth-child()*/
@@ -102,7 +121,7 @@ h2{
 @media (min-width:1024px){
     .gallery-container{
         grid-template-columns: repeat(4, 1fr);
-        margin: auto;
+        margin: 1px;
         width: 90%;
         grid-row: auto;
         padding: 20px;
