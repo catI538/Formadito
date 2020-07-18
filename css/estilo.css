@@ -78,6 +78,10 @@ h2{
     width: 100%;
     height: 100%;
 }
+.footer{
+    background-color: #2F293F;
+    color: #ffffff;
+}
 
 /*ELEGIR UNA IMAGEN Y CAMBIARLA DIRECTAMENTE
 .gallery__item:nth-child()*/
